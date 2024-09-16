@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('nature.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.watch{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #FFFF;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showTimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #FFFF;
+}
+
+.buttons{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-inline: 12px;
+    font-size: 20px;
+    color: #FFFF;
+}
+
+#stopBtn{
+    background-color: red;
+}
+
+#startBtn{
+    background-color: green;
+}
+
+#resetBtn{
+    background-color: blue;
+}
